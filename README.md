@@ -41,17 +41,13 @@ mv /usr/lib/node_modules/@victronenergy/node-red-contrib-victron/src/services/se
 cp /data/rgpio/conf/services.json /usr/lib/node_modules/@victronenergy/node-red-contrib-victron/src/services/services.json
 
 
-6/ Reboot or restart the services
-svc -d /service/dbus-systemcalc-py/ ; svc -u /service/dbus-systemcalc-py/
-svc -d /service/gui ; svc -u /service/gui
-svc -d /service/node-red-venus
+6/ Reboot the Cerbo
 
 
-7/ Reboot the RGPIO device and start Node-Red
-svc -u /service/node-red-venus
+7/ Reboot the relay module (login to the relay ui and scroll down to 'reboot')
 
 
-8/ Open node red in a browser and import/deploy the Digital inputs flow and the Relays flow
+8/ Open node red in a browser and import/deploy the Digital Inputs and Relays flows (both flows are necessary for full function of the relays)
 
 
 8/ Display and configure the additional 4x relais in the Venus GUI
