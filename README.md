@@ -18,7 +18,7 @@ I suggest you download the configuration files in /data/rgpio so it remains ther
 
 1/
 cd /data/
-wget https://github.com/thomasinaz41213/Venus_rgpio/releases/download/Latest/rgpio.tar.gz
+wget github.com/thomasinaz41213/Venus_rgpio/releases/download/Latest/rgpio.tar.gz
 tar -xvzf rgpio.tar.gz
 rm rgpio.tar.gz
 
