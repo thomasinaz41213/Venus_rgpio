@@ -1,3 +1,5 @@
+This MOD adds an external relay module to the Victron Cerbo GX to add additional relays and digital inputs. This tutorial is intended for using ethernet or wifi to connect to the relay module.
+
 This box provides relays, that can be controlled with Modbus Serial, but also over IP and with various additional protocols: https://fr.aliexpress.com/item/4000999069820.html They have variants of 4 or 8 relays.
 
 CONFIGURATION OF THE RELAY MODULE
