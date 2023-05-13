@@ -21,7 +21,6 @@ wget github.com/thomasinaz41213/Venus_rgpio/releases/download/Latest/rgpio.tar.g
 tar -xvzf rgpio.tar.gz
 rm rgpio.tar.gz
 ***RE-INSTALL JUST NEEDS TO START HERE***
-chmod a+x /data/rgpio
 /data/rgpio/install.sh
 
 Open node red in a browser and import/deploy the Digital Inputs and Relays flows (both flows are necessary for full function of the relays)
@@ -46,7 +45,6 @@ The aditional digital inputs are only available through Node-Red
 UNINSTALL
 THIS WILL RESTORE THE ORIGINAL FILES, AND LEAVE THE RGPIO DIRECTORY INTACT
 
-chmod a+x /data/rgpio
 /data/rgpio/uninstall.sh
 
 
@@ -55,7 +53,6 @@ PERMANENTLY REMOVE RGPIO DIRECTORY AND IT'S CONTENTS
 WARNING: IF YOU DO THIS YOU WILL NEED TO RUN THE FULL INSTALL INSTRUCTIONS
          ABOVE IF YOU WISH TO REINSTALL AT A LATER DATE
 
-chmod a+x /data/rgpio
 /data/rgpio/remove.sh
 
 **********************************************************************
